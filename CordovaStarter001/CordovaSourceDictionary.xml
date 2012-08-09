@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is auto-generated, do not edit! -jm -->
+<CordovaSourceDictionary>
+    <FilePath Value="www\audio\Dangerous.mp3"/>
+    <FilePath Value="www\audio\xdf.mp3"/>
+    <FilePath Value="www\CaptureAudio.html"/>
+    <FilePath Value="www\device.html"/>
+    <FilePath Value="www\js\jquery-1.6.3.js"/>
+    <FilePath Value="www\playAudio.html"/>
+    <FilePath Value="www\js\index.js"/>
+    <FilePath Value="www\cordova-2.0.0.js"/>
+    <FilePath Value="www\css\index.css"/>
+    <FilePath Value="www\img\cordova.png"/>
+    <FilePath Value="www\index.html"/>
+</CordovaSourceDictionary>
