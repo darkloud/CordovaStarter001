@@ -13,22 +13,18 @@
       // InitSrc();
       function InitSrc()
       {
-
       var storage = window.localStorage;
-
       var file= storage.getItem("file");
       alert(file);
-      var aud=$('#aud');
-      alert(aud.attributes["src"].value);
-
-      aud.attributes["src"].value ='audio/'+file+'.mp3';
+      var aud = $('audio')
+      aud.attr("src","audio/xdf.mp3")       
       alert(aud.attributes["src"].value);
       }
     </script>
   </head>
   <body>
     <!--src="http://audio.ibeat.org/content/p1rj1s/p1rj1s_-_rockGuitar.mp3"-->
-    <audio id="aud" controls="control"
+    <audio id="ct" controls="control"
            src="audio/dangerous.mp3"
            autoplay="autoplay">
       您的浏览器不支持 audio 标签。
